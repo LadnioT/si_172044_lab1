@@ -1,0 +1,17 @@
+commit 7a143370ad3ff6a990fa43566804995abc544bdf
+Author: student <student@labstudenti.finki.ukim.mk>
+Date:   Thu Mar 21 10:01:46 2019 +0100
+
+    vtora promena radi greska
+
+commit 0461cac9d97ac4ec04219e031345b8ee8a3d56f2
+Author: student <student@labstudenti.finki.ukim.mk>
+Date:   Thu Mar 21 09:46:42 2019 +0100
+
+    modify l1.txt
+
+commit 20bbca463f2e22b71b59f40539c7954163314b04
+Author: student <student@labstudenti.finki.ukim.mk>
+Date:   Thu Mar 21 09:42:47 2019 +0100
+
+    initial commit
