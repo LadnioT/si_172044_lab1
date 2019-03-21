@@ -1,0 +1,23 @@
+mkdir lab1
+cd lab1
+git init
+copy nul > li.txt
+echo Dragan Gjorgjiev 172044 > li.txt
+git add li.txt
+git commit -m "initial commit"
+echo Mrezni tehnologii >> li.txt
+git add li.txt
+git commit -m "modify l1.txt"
+git remote add origin https://github.com/LadnioT/si_172044_lab1.git
+git remote -v
+git push origin master
+echo cisto za promena >> li.txt
+git checkout HEAD~1 li.txt
+git checkout -b logging
+git --no-pager log > log.txt
+git add log.txt
+git commit -m "logovi"
+git push origin logging
+git checkout master
+git merge logging
+git checkout -b allcomands
